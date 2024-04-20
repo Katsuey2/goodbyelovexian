@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-size: 15px;
+    background-color: 	#26292a;
+    font-family: 'Poppins';
+    width: 100%;
+    height: 100vh;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+
+    
+}
+
+h1,p{
+  text-align: center;
+  color:white;
+}
+
+button{
+  text-align: center;
+  margin:0;
+}
+
+.istuff{
+  margin: 30px;
+  font-size:20px;
+  text-align: center;
+
+}
+
+
+#Yesbtn{
+  height: 45px;
+  width:75px;
+  background-color: rgb(29, 32, 37);
+  border-radius: 9px;
+  border-width: 5px;
+  border-color: #21f800;
+  padding: 5px;
+  color: #21f800;
+  
+  transition-delay: 5ms;
+  transition-duration: 1s;
+
+
+}
+
+
+#Yesbtn:hover{
+  transform: translateY(-20px);
+}
+
+
+
+#Nobtn{
+  height: 45px;
+  width:75px;
+  background-color: #15171a ;
+  border-radius: 9px;
+  border-color: #ca0000;
+  border-width: 5px;
+
+  padding: 5px;
+  color: #d30000 ;
+  
+
+  transition-delay: 5ms;
+  transition-duration: 1s;
+
+}
+
+#Nobtn:hover{
+  transform: translateY(-20px);
+}
+
+#para{
+  color: rgb(163, 0, 0);
+}
+
+#para2{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+#Ty{
+  margin: 20px;
+  width: 250px;
+  height: 75px;
+  font-size: 30px;
+  border-radius: 9px;
+ 
+}
+
+label{
+  color:white;
+  margin-bottom: 50px;
+
+}
+
+#aud{
+  border: none;
+  background-color: #15171a;
+}
